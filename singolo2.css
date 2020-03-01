@@ -126,6 +126,10 @@ h3 {
 
 .card-unit_name {
   margin-bottom: -2px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card-unit_description {
